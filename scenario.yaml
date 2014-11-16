@@ -1,0 +1,8 @@
+--- # General specifications
+ip:        192.168.1.100
+port:      5005
+direction: out
+rate:      10 # messages pers second
+ # Data
+data: [uint32: "6789", int: "232323", uint8: "4", uint8: "7", uint64: "0xDEADBEAFBEAFDEAD"]
+# data: [uint32: "6789", int: "232323", uint8: "4", uint8: "7"]
